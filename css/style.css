@@ -1,0 +1,95 @@
+/* work by Brook E from coursera */
+/* Base Styles */
+
+/* All contents */
+*{
+  font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
+}
+
+/* Header only */
+h1 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Body div only */
+div {
+  border: 0px;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  font-size: small;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Div section only */
+.section {
+  background-color: beige;
+  border: 1px solid black;
+  height: 150px;
+  margin: 5px;
+  overflow: auto;
+  padding: 50px 5px 5px 5px;
+  position: relative;
+}
+
+/* Div section paragraphs only */
+p {
+  margin-top: 1px;
+  font-size: 20px;
+}
+
+/* Div section titles only */
+/* All three titles */
+.title {
+  border: 1px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* Chicken title only */
+.chicken {
+  background-color: green;
+  color: white;
+}
+/* Sushi title only */
+.sushi {
+  background-color: turquoise;
+  color: brown;
+}
+/* Beef title only */
+.beef {
+  background-color: blue;
+  color: red;
+}
+
+/* Responsive Styles */
+
+/* Desktop format */
+@media (min-width: 992px) {
+  .col-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+}
+
+/* Tablet format */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+      float: left;
+      width: 50%;
+    }
+}
+
+/* Mobile format */
+@media (max-width: 767px) {
+  .col-sm-12 {
+      float: left;
+      width: 100%;
+    }
+}
