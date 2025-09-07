@@ -48,7 +48,7 @@ p {
   font-size: 25px;
   font-weight: bold;
   padding: 5px;
-  position: absolute;
+  position: sticky;
   right: 0;
   top: 0;
 }
